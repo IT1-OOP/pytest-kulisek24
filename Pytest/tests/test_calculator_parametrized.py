@@ -9,7 +9,7 @@ def test_add():
 
 def test_addwrong():
     assert calculator.add_wrong(1, 2) == 3
-    assert calculator.add_wrong(0, 5) == 5
+    assert calculator.add_wrong(0, 5) == 3
     assert calculator.add_wrong(-2, 9) == 7
     assert calculator.add_wrong(0, 0) == 0
 
